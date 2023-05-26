@@ -1471,9 +1471,9 @@ label {
 .brand-item img:hover {
 	filter: grayscale(0);
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 85px;
-}
+} */
 
 /* brand-two */
 .brand-area-two {

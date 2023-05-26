@@ -3,9 +3,9 @@
 .banner-area {
     padding: 100px 0 0 85px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 240px;
-}
+} */
 .slider-content .overly-text {
 	font-size: 62px;
 }
@@ -331,9 +331,9 @@
 .banner-area {
 	padding: 100px 0 0 40px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 194px;
-}
+} */
 .banner-shape {
 	width: 20.29%;
 	height: 100%;
@@ -1277,9 +1277,9 @@
 .banner-content .title {
 	font-size: 38px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 134px;
-}
+} */
 .brand-area {
 	padding: 22px 0;
 }
@@ -2105,9 +2105,9 @@
 .banner-shape {
 	width: 37%;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 180px;
-}
+} */
 .banner-content .title {
 	font-size: 40px;
 }
