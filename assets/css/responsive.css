@@ -3,9 +3,9 @@
 .banner-area {
     padding: 100px 0 0 85px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 240px;
-}
+} */
 .slider-content .overly-text {
 	font-size: 62px;
 }
@@ -206,7 +206,8 @@
 	margin-left: 75px;
 }
 .banner-area-two {
-	padding: 100px 0 230px;
+	/* padding: 100px 0 230px; */
+	padding: 100px 0 100px;
 }
 .appointment-inner-two .title {
 	font-size: 38px;
@@ -330,9 +331,9 @@
 .banner-area {
 	padding: 100px 0 0 40px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 194px;
-}
+} */
 .banner-shape {
 	width: 20.29%;
 	height: 100%;
@@ -564,9 +565,9 @@
 .header-social .list-wrap {
 	display: none;
 }
-.header-top-right {
+/* .header-top-right {
 	gap: 0;
-}
+} */
 .banner-content-two .sub-title {
 	font-size: 22px;
 }
@@ -1028,12 +1029,12 @@
 .blog-area-two .blog-post-item {
 	border-radius: 5px 30px 5px 5px;
 }
-.header-top-right {
+/* .header-top-right {
 	display: none;
 }
 .header-top-left .list-wrap {
 	justify-content: center;
-}
+} */
 .banner-shape-wrap .list-wrap li:nth-child(4) {
 	display: none;
 }
@@ -1276,9 +1277,9 @@
 .banner-content .title {
 	font-size: 38px;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 134px;
-}
+} */
 .brand-area {
 	padding: 22px 0;
 }
@@ -1583,7 +1584,7 @@
 .blog-area-two .blog-post-thumb {
 	border-radius: 5px 20px 5px 5px;
 }
-.header-top-left .list-wrap li::before {
+/* .header-top-left .list-wrap li::before {
 	display: none;
 }
 .header-top-wrap {
@@ -1591,7 +1592,7 @@
 }
 .header-top-left .list-wrap {
 	gap: 8px 15px;
-}
+} */
 .banner-img-wrap .overly-text .title {
 	display: none;
 }
@@ -1599,7 +1600,8 @@
 	width: 100%;
 }
 .banner-area-two {
-	padding: 80px 0 210px;
+	padding: 80px 0 80px;
+	/* padding: 80px 0 210px; */
 }
 .banner-content-two .title {
 	font-size: 38px;
@@ -2103,9 +2105,9 @@
 .banner-shape {
 	width: 37%;
 }
-.brand-inner {
+/* .brand-inner {
 	margin-left: 180px;
-}
+} */
 .banner-content .title {
 	font-size: 40px;
 }
