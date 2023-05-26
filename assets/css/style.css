@@ -1116,7 +1116,8 @@ label {
 /* banner-two */
 .banner-area-two {
 	background: var(--tg-blue-three);
-	padding: 110px 0 240px;
+	padding: 110px 0 110px;
+	/* padding: 110px 0 240px; */
 	position: relative;
 	z-index: 1;
 }

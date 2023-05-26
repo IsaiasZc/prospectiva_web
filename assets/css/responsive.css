@@ -206,7 +206,8 @@
 	margin-left: 75px;
 }
 .banner-area-two {
-	padding: 100px 0 230px;
+	/* padding: 100px 0 230px; */
+	padding: 100px 0 100px;
 }
 .appointment-inner-two .title {
 	font-size: 38px;
@@ -1599,7 +1600,8 @@
 	width: 100%;
 }
 .banner-area-two {
-	padding: 80px 0 210px;
+	padding: 80px 0 80px;
+	/* padding: 80px 0 210px; */
 }
 .banner-content-two .title {
 	font-size: 38px;
