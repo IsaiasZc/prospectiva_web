@@ -3691,6 +3691,7 @@ label {
 .engineer-info-wrap {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding: 22px 0 0;
 }
 .engineer-info-wrap .thumb {
@@ -3748,6 +3749,23 @@ label {
 .engineer-active .slick-dots li.slick-active button {
 	opacity: 1;
 	width: 40px;
+}
+
+/* Personal */
+.engineer-active .link-btn {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--tg-blue-two);
+	border-radius: 50%;
+	font-size: 22px;
+	color: var(--tg-white);
+}
+
+.engineer-item:hover .engineer-info-wrap .link-btn {
+	background: var(--tg-primary-color);
 }
 
 /*=============================
