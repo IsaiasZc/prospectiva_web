@@ -5346,7 +5346,8 @@ label {
 	align-items: center;
 	justify-content: center;
 	flex: 0 0 auto;
-	color: #0F1437;
+	/* color: #0F1437; */
+	color: var(--tg-blue-two);
 	background: var(--tg-white);
 	border-radius: 5px;
 	font-size: 40px;
