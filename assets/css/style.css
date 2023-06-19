@@ -35,6 +35,7 @@
 26. Error
 27. Footer
 28. Preloader
+29. Mision Vision
 ============================
 */
 
@@ -5529,6 +5530,27 @@ label {
     -webkit-animation: bar-left 3.2s linear 0s infinite;
     animation: bar-left 3.2s linear 0s infinite;
 }
+
+/*=============================
+	29. Mision vision
+===============================*/
+
+.mv-area {
+	border-radius: .7rem;
+}
+
+.mv-area .title, .mv-area p  {
+	color: var(--tg-white);
+}
+
+.mision-vision-area_1 {
+	background-color: var(--tg-blue);
+}
+
+.mision-vision-area_2 {
+	background-color: var(--tg-orange);
+}
+
 @keyframes taRotation {
     0% {
       transform: rotate(0deg);
