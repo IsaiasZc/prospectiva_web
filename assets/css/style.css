@@ -35,6 +35,7 @@
 26. Error
 27. Footer
 28. Preloader
+29. Mision Vision
 ============================
 */
 
@@ -51,8 +52,10 @@
 :root {
     --tg-body-font-family: 'DM Sans', sans-serif;
     --tg-heading-font-family: 'Poppins', sans-serif;
-    --tg-primary-color: #FE5D14;
-    --tg-secondary-color: #131944;
+    /* --tg-primary-color: #FE5D14; */
+    --tg-primary-color: #ff6302;
+    /* --tg-secondary-color: #131944; */
+    --tg-secondary-color: #002f69;
     --tg-body-font-color: #61657E;
     --tg-heading-font-color: #1C1C1C;
     --tg-paragraph-color: #61657E;
@@ -62,16 +65,20 @@
     --tg-heading-font-weight: 700;
     --tg-body-line-height: 1.62;
     --tg-heading-line-height: 1.2;
-    --tg-blue: #161C49;
-    --tg-blue-two: #0F1437;
-    --tg-blue-three: #0A0E21;
+    /* --tg-blue: #161C49; */
+    --tg-blue: #002f69;
+    /* --tg-blue-two: #0F1437;
+    --tg-blue-three: #0A0E21; */
+    --tg-blue-two: #002653;
+    --tg-blue-three: #011d3f;
     --tg-border-color: #D8DEFC;
     --tg-input-border-color: #CFCFCF;
     --tg-indigo: #6610f2;
     --tg-purple: #6f42c1;
     --tg-pink: #d63384;
     --tg-red: #dc3545;
-    --tg-orange: #fd7e14;
+    /* --tg-orange: #fd7e14; */
+    --tg-orange: #ff7c02;
     --tg-seashell: #FFF3ED;
     --tg-unbleached-silk: #FFDAC9;
     --tg-yellow: #ffc107;
@@ -3691,6 +3698,7 @@ label {
 .engineer-info-wrap {
 	display: flex;
 	align-items: center;
+	justify-content: space-between;
 	padding: 22px 0 0;
 }
 .engineer-info-wrap .thumb {
@@ -3748,6 +3756,23 @@ label {
 .engineer-active .slick-dots li.slick-active button {
 	opacity: 1;
 	width: 40px;
+}
+
+/* Personal */
+.engineer-active .link-btn {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: var(--tg-blue-two);
+	border-radius: 50%;
+	font-size: 22px;
+	color: var(--tg-white);
+}
+
+.engineer-item:hover .engineer-info-wrap .link-btn {
+	background: var(--tg-primary-color);
 }
 
 /*=============================
@@ -5322,7 +5347,8 @@ label {
 	align-items: center;
 	justify-content: center;
 	flex: 0 0 auto;
-	color: #0F1437;
+	/* color: #0F1437; */
+	color: var(--tg-blue-two);
 	background: var(--tg-white);
 	border-radius: 5px;
 	font-size: 40px;
@@ -5504,6 +5530,27 @@ label {
     -webkit-animation: bar-left 3.2s linear 0s infinite;
     animation: bar-left 3.2s linear 0s infinite;
 }
+
+/*=============================
+	29. Mision vision
+===============================*/
+
+.mv-area {
+	border-radius: .7rem;
+}
+
+.mv-area .title, .mv-area p  {
+	color: var(--tg-white);
+}
+
+.mision-vision-area_1 {
+	background-color: var(--tg-blue);
+}
+
+.mision-vision-area_2 {
+	background-color: var(--tg-orange);
+}
+
 @keyframes taRotation {
     0% {
       transform: rotate(0deg);
