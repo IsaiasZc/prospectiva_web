@@ -30,7 +30,8 @@ body {
 }
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 40px 30px 10px 30px;
+  /* padding: 40px 30px 10px 30px; */
+  padding: 10px;
 }
 .timeline-item:nth-child(even) .timeline-content .date {
   right: auto;
@@ -179,6 +180,7 @@ blockquote {
 
 .carousel.slide div > img {
   height: 100%;
+  object-fit: cover;
 }
 
 
@@ -194,15 +196,15 @@ blockquote {
 
 @media screen and (max-width: 768px) {
   .timeline::before {
-    left: 50px;
+    left: 25px;
   }
   .timeline .timeline-img {
-    left: 35px;
+    left: 13px;
   }
   .timeline .timeline-content {
     max-width: 100%;
     width: auto;
-    margin-left: 70px;
+    margin-left: 30px;
     top: 40px;
 
   }
@@ -237,9 +239,9 @@ blockquote {
   .timeline-date {
     position: relative;
     display: inline-block;
-    left: 80px;
+    left: 50px;
     font-size: 19px;
-    top: 25px;
+    top: 27px;
     line-height: 26px;
   }
 }
