@@ -707,8 +707,12 @@ $('.jarallax').jarallax({
 $('.odometer').appear(function (e) {
 	var odo = $(".odometer");
 	odo.each(function () {
-		var countNumber = $(this).attr("data-count");
-		$(this).html(countNumber);
+		// var countNumber = $(this).attr("data-count");
+		// $(this).html(countNumber);
+
+		/* personal odometer */
+		var countOdom = new Odometer({ el: this, value: 0, theme: 'minimal' });
+		countOdom.update(countNumber);
 	});
 });
 
