@@ -705,17 +705,17 @@ $('.jarallax').jarallax({
 	=    		Odometer Active  	       =
 =============================================*/
 $('.odometer').appear(function (e) {
-	var odo = $(".odometer");
-	odo.each(function () {
-		// var countNumber = $(this).attr("data-count");
-		// $(this).html(countNumber);
+    var odo = $(".odometer");
+    odo.each(function () {
+        var countNumber = $(this).attr("data-count");
+        $(this).html(0);
 
-		/* personal odometer */
-		var countOdom = new Odometer({ el: this, value: 0, theme: 'minimal' });
-		countOdom.update(countNumber);
-	});
+        /* personal odometer */
+        var countOdom = new Odometer({ el: this, value: 0, theme: 'minimal', format: '(,ddd)' });
+        // countOdom.update(countNumber);
+				countOdom.update(countNumber);
+    });
 });
-
 
 /*=============================================
 	=    		Magnific Popup		      =
