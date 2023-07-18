@@ -2164,16 +2164,16 @@ label {
 .services-content-two {
 	display: flex;
 	align-items: flex-start;
-	padding: 24px 0 0 24px;
+	padding: 12px 0 0 12px; /* 24px 0 0 24px */
 }
 .services-content-two .icon {
-	width: 88px;
-	height: 88px;
+	width: 60px; /* 88px*/
+	height: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	flex: 0 0 auto;
-	margin-right: 25px;
+	margin-right: 10px; /* 25 px */
 	background: var(--tg-primary-color);
 	border-radius: 4px;
 	color: var(--tg-white);
