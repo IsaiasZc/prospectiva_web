@@ -725,7 +725,11 @@ $('.popup-image').magnificPopup({
 
 /* magnificPopup video view */
 $('.popup-video').magnificPopup({
-	type: 'iframe'
+	type: 'iframe',
+	mainClass: 'mfp-fade',
+	removaDelay: 160,
+	preloader: false,
+	fixedContentPos: false
 });
 
 
