@@ -533,6 +533,10 @@ label {
 	visibility: visible;
 	transform: scale(1);
 }
+
+.aspect-16-9 {
+	aspect-ratio: 16 / 9;
+}
 .sticky-menu {
 	position: fixed;
 	left: 0;
@@ -550,6 +554,11 @@ label {
 #header-fixed-height.active-height {
 	display: block;
 	height: 100px;
+}
+
+.iframe-style {
+	max-width: 100%;
+	max-height: 100%;
 }
 
 /* header-two */
@@ -3786,6 +3795,7 @@ label {
 	display: flex;
 	align-items: center;
 	margin-bottom: 30px;
+	height: 100%;
 }
 .work-thumb {
 	width: 94px;
@@ -3822,6 +3832,12 @@ label {
 	border-radius: 50%;
 	z-index: -1;
 }
+
+.work-content {
+	align-self: start;
+	padding-top: 30px;
+}
+
 .work-content .title {
 	font-weight: 600;
 	font-size: 20px;
