@@ -2332,7 +2332,7 @@ label {
 .services-process-img img {
 	border-radius: 10px;
 }
-.services-process-img img:nth-child(2) {
+.services-process-img > div:nth-child(2) {
 	position: absolute;
 	right: 0;
 	bottom: 0;
@@ -3166,7 +3166,7 @@ label {
 .team-thumb {
 	border-radius: 10px;
 	position: relative;
-	margin-left: auto;
+	margin: auto;
 	width: 278px;
 }
 .team-thumb img {
@@ -3217,7 +3217,7 @@ label {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: 30px;
+	bottom: 0;
 	background: var(--tg-blue-two);
 	border-radius: 10px;
 	padding: 32px 20px;
