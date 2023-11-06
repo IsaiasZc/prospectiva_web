@@ -693,6 +693,14 @@
 	object-fit: none !important;
 }
 
+.min-h-100 {
+	min-height: 100% !important;
+}
+
+.text-justify {
+	text-align: justify !important;
+}
+
 /* black overlay */
 
 [data-overlay] {

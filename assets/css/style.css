@@ -71,6 +71,7 @@
     --tg-blue-three: #0A0E21; */
     --tg-blue-two: #002653;
     --tg-blue-three: #011d3f;
+		--tg-blue-four: #0a529e;
     --tg-border-color: #D8DEFC;
     --tg-input-border-color: #CFCFCF;
     --tg-indigo: #6610f2;
@@ -388,6 +389,10 @@ label {
 /*=============================
 	03. Header
 ===============================*/
+.color-secondary {
+	color: var(--tg-blue-four);
+}
+
 .custom-container {
     max-width: 1330px;
 }
@@ -2025,6 +2030,7 @@ label {
 /*=============================
 	11. Services
 ===============================*/
+
 .services-area {
 	background: var(--tg-gray);
 	padding: 115px 0 90px;
@@ -3802,6 +3808,7 @@ label {
 	flex: 0 0 94px;
 	position: relative;
 	margin-right: 25px;
+	align-self: start;
 }
 .work-thumb .number {
 	position: absolute;
