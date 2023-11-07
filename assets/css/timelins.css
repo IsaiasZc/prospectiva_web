@@ -183,6 +183,14 @@ blockquote {
   object-fit: cover;
 }
 
+.timeline-to-row {
+  display: flex;
+  flex-direction: column !important;
+}
+
+.timeline-to-row > div {
+  width: 100% !important;
+}
 
 
 @media screen and (max-width: 100px) {

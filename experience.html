@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -78,7 +78,7 @@
 
                                         </li>
 
-                                        <li><a href="./recursos">Recursos</a></li>
+                                        <!-- <li><a href="./recursos">Recursos</a></li> -->
                                         <li class="d-block d-xl-none"><a href="./contact">Contacto</a></li>
                                         <li class=" pl-4 d-flex justify-content-center align-items-center"><img
                                                 style="width: 60px;" src="./assets/img/logo/logo_iso.png"></li>
@@ -723,7 +723,7 @@
 
                         </div>
 
-                        <div class="timeline-item">
+                        <!-- <div class="timeline-item">
 
                             <div class="timeline-img"></div>
 
@@ -784,10 +784,10 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> -->
 
 
-                        <div class="timeline-item">
+                        <!-- <div class="timeline-item">
 
                             <div class="timeline-img"></div>
 
@@ -844,7 +844,7 @@
                                 </div>
                             </div>
 
-                        </div>
+                        </div> -->
 
 
 
@@ -1025,6 +1025,20 @@
     <script src="assets/js/scrollreveal.min.js"></script>
 
     <script src="assets/js/timeline.js"></script>
+
+    <script>
+        const timelineContents = document.querySelectorAll('.timeline-content');
+
+        // Escuchar si el tamaño de la ventana ha cambiado, si es así, realiza un console log
+        window.addEventListener('resize', () => {
+            if (timelineContents[0].clientWidth <= 500 && !timelineContents[0].classList.contains('timeline-to-row')) {
+                timelineContents.forEach( elem => elem.classList.add('timeline-to-row'))
+            } else if(timelineContents[0].clientWidth > 500 && timelineContents[0].classList.contains('timeline-to-row')) {
+                timelineContents.forEach( elem => elem.classList.remove('timeline-to-row'))
+            }
+        })
+        
+    </script>
 </body>
 
 </html>
