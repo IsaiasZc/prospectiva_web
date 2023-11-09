@@ -957,6 +957,11 @@
 	right: 20px;
 	font-size: 15px;
 }
+
+.btn-w {
+	right: 10px;
+	bottom: 40px;
+}
 .slider-img-wrap {
 	display: none;
 }
