@@ -208,7 +208,7 @@ h6 {
 	padding: 0px;
 }
 .list-wrap li {
-	list-style: none
+	list-style: none;
 }
 p {
 	font-size: var(--tg-body-font-size);
@@ -5345,6 +5345,7 @@ label {
 }
 .footer-instagram .list-wrap li a img {
 	border-radius: 5px;
+	max-width: 120px;
 }
 .footer-top .row [class*="col-"]:nth-child(4) .footer-widget {
 	margin-left: 70px;
